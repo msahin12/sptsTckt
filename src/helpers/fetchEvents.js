@@ -10,8 +10,8 @@ import axios from "axios";
 import moment from "moment";
 import _ from "lodash";
 
-const MLB_URL = `https://app.ticketmaster.com/discovery/v2/events.json?keyword=MLB&apikey=5fXAiyK6eWahj6Xoz4YhRTnhpqWBeKzp`;
-const NFL_URL = `https://app.ticketmaster.com/discovery/v2/events.json?keyword=NFL&apikey=5fXAiyK6eWahj6Xoz4YhRTnhpqWBeKzp`;
+const MLB_URL = `https://app.ticketmaster.com/discovery/v2/events.json?keyword=MLB&size=50&apikey=5fXAiyK6eWahj6Xoz4YhRTnhpqWBeKzp`;
+const NFL_URL = `https://app.ticketmaster.com/discovery/v2/events.json?keyword=NFL&size=50&apikey=5fXAiyK6eWahj6Xoz4YhRTnhpqWBeKzp`;
 
 let MLBList = [];
 let NFLList = [];
